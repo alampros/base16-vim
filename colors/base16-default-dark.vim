@@ -202,6 +202,12 @@ call <sid>hi("htmlItalic",  s:gui0E, "", s:cterm0E, "", "", "")
 call <sid>hi("htmlEndTag",  s:gui05, "", s:cterm05, "", "", "")
 call <sid>hi("htmlTag",     s:gui05, "", s:cterm05, "", "", "")
 
+" XML highlighting
+call <sid>hi("xmlTag",     s:gui08, "", s:cterm08, "", "", "")
+call <sid>hi("xmlTagName", s:gui0D, "", s:cterm0D, "", "bold", "")
+call <sid>hi("xmlEndTag",  s:gui08, "", s:cterm08, "", "", "")
+
+
 " JavaScript highlighting
 call <sid>hi("javaScript",        s:gui05, "", s:cterm05, "", "", "")
 call <sid>hi("javaScriptBraces",  s:gui05, "", s:cterm05, "", "", "")
